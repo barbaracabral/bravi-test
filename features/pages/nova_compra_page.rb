@@ -4,6 +4,4 @@ class NovaCompraPage < SitePrism::Page
   element :new_purchase, '.ca-dropdown-item'
   element :negotiation_header, '#negotiation'
 
-
-
 end
