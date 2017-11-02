@@ -19,6 +19,7 @@ GEM
     chromedriver-helper (1.1.0)
       archive-zip (~> 0.7.0)
       nokogiri (~> 1.6)
+    cliver (0.3.2)
     cucumber (3.0.1)
       builder (>= 2.1.2)
       cucumber-core (~> 3.0.0)
@@ -45,6 +46,10 @@ GEM
     multi_test (0.1.2)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
+    poltergeist (1.16.0)
+      capybara (~> 2.1)
+      cliver (~> 0.3.1)
+      websocket-driver (>= 0.2.0)
     public_suffix (3.0.0)
     rack (2.0.3)
     rack-test (0.7.0)
@@ -69,6 +74,9 @@ GEM
     site_prism (2.9)
       addressable (>= 2.3.3, < 3.0)
       capybara (>= 2.1, < 3.0)
+    websocket-driver (0.7.0)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.2)
     xpath (2.1.0)
       nokogiri (~> 1.3)
 
@@ -79,9 +87,10 @@ DEPENDENCIES
   capybara
   chromedriver-helper
   cucumber
+  poltergeist
   rspec
   selenium-webdriver
   site_prism
 
 BUNDLED WITH
-   1.15.4
+   1.16.0
